@@ -1,13 +1,26 @@
 import React from 'react';
-import {Button, Icon} from 'react-materialize'
+import {Button} from 'react-materialize';
 import { Link } from 'react-router-dom';
 
+
 function Header(){
+  
+   const toolBar = {
+     margin : '50px'
+   }
+
+  const bottonColor ={
+    color: 'white'
+  }
+
+
   return (
-    <div>
-    <Button waves='light'><Link to="/">Home</Link></Button>
-    <Button waves='light'><Link to="/workExperience">WorkExperience</Link><Icon left>cloud</Icon></Button>
-    <Button waves='light'><Link to="/Project">Project</Link><Icon right>cloud</Icon></Button>
+    <div style={toolBar} >
+    <Button waves='light' className='green'><Link to="/" style={bottonColor}>Home</Link></Button>
+    <Button waves='light' className='#ffbd00'><Link to="/workExperience" style={bottonColor}>WorkExperience</Link></Button>
+    <Button waves='light' className='#ffbd00'><Link to="/Project" style={bottonColor}>Project</Link></Button>
+    <Button waves='light' className='#ffbd00'><Link to="/Interests" style={bottonColor}>Interests</Link></Button>
+    <Button waves='light' className='#ffbd00'><Link to="/Education" style={bottonColor}>Education</Link></Button>
     </div>
   );
 }
