@@ -16,6 +16,11 @@ This a portfolio page to display my personal coding projects, eduction, working 
 
  3. Once the project is clone to you computer open Portfolio in which ever median you use weather that be atom or vs code or vs studios.
 
+ ### Wireframe of components 
+ ---
+
+ ![](\src\assets\wireframe.png)
+
  ### Deploying on localhost
  ---
 
