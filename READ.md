@@ -1,6 +1,5 @@
 # portfolio
 
-
 ## By Alex Garcia
 
 ### Description
