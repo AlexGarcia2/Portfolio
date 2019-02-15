@@ -1,11 +1,13 @@
 import React from 'react';
+import {Button, Icon} from 'react-materialize'
 import { Link } from 'react-router-dom';
 
 function Header(){
   return (
     <div>
-      <h1>Hello</h1>
-      <Link to="/">Home</Link> | <Link to="/workExperience">WorkExperience</Link> | <Link to="/Project">Project</Link> | <Link to="/Interests">Interests</Link> | <Link to="/Education">Education</Link>
+    <Button waves='light'><Link to="/">Home</Link></Button>
+    <Button waves='light'><Link to="/workExperience">WorkExperience</Link><Icon left>cloud</Icon></Button>
+    <Button waves='light'><Link to="/Project">Project</Link><Icon right>cloud</Icon></Button>
     </div>
   );
 }
