@@ -31,3 +31,13 @@ This a portfolio page to display my personal coding projects, eduction, working 
 ### Known Bugs
 ---
 
+There is no known bugs at this time. If any problem arise with prject please contact me at : g.nightster11@gmail.com
+
+#### Technologies Used
+---
+This appliaction uses React.js, JavaScript, Html, JSX, CSS.
+
+###### License Copyright (c) 2018 _ Alex Garcia_
+
+###### This software is licensed under the MIT license.
+
