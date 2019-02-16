@@ -7,12 +7,17 @@ import WorkExperience from './workExperience/WorkExperience';
 import Project from './projects/Project';
 import Interests from './interests/Interests';
 import Education from './education/Education';
+// import coast from '../assets/coast.jpg';
 
 
 function App(){
   return (
     <div>
       <Header/>
+      <div>
+        image need here
+        {/* <img src={coast}/> */}
+      </div>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/workExperience' component={WorkExperience} />
