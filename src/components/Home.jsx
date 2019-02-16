@@ -7,14 +7,15 @@ function Home(){
     width: '400px',
     textAlign: 'center',
     fontFamily: 'impact',
-    positon: 'relitive',
-    right: '400px'
+    marginTop: '100px',
+    marginLeft:'450px',
+    borderRadius: '10px/50px/30px'
   }
 
     return (
       <div style={nameCard}>
-       <h2>ALex Garcia</h2>
-       <h3>Junior Developer</h3>
+       <h4>Alex Garcia</h4>
+       <h5>Developer</h5>
       </div>
     );
   }
