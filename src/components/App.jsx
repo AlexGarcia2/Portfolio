@@ -32,14 +32,14 @@ function App(){
       </div>
       
       <div style={border}>
-       <Project/>
+       <Education/>
       </div>
       <div style={background}>
       
       <Interests/>
      </div>
      <div style ={border}>
-       <Education/>
+     <Project/>
       </div>
       <div style={background}>
        <WorkExperience/>
