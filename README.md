@@ -19,7 +19,7 @@ This a portfolio page to display my personal coding projects, eduction, working 
  ### Wireframe of components 
  ---
 
- ![](\src\assets\wireframe.png)
+ ![](/src/assets/wireframe.png)
 
  ### Deploying on localhost
  ---
