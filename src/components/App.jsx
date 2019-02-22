@@ -1,32 +1,45 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Error404 from './Error404';
+// import { Switch, Route } from 'react-router-dom';
+// import Error404 from './Error404';
 import Header from './Header';
-import Home from './Home';
+
 import WorkExperience from './workExperience/WorkExperience';
 import Project from './projects/Project';
 import Interests from './interests/Interests';
 import Education from './education/Education';
-// import coast from '../assets/coast.jpg';
+import vwBack from '../assets/VWBack.jpg';
 
 
 function App(){
+
+  const img = {
+    width:'100%',
+    height:'700px',
+   
+  }
+
   return (
     <div>
       <Header/>
-      <div>
-        image need here
-        {/* <img src={coast}/> */}
+      <div>        
+        <img style={img} src={vwBack}/>
       </div>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/workExperience' component={WorkExperience} />
-          <Route path='/Project' component={Project} />
-          <Route path='/Interests' component={Interests} />
-          <Route path='/Education' component={Education} />
-          <Route component={Error404} />
-        </Switch>
+      </hr>
+      <div>
+       <Project/>
+      </div>
+      <div>
+      
+      <Interests/>
+     </div>
+     <div>
+       <Education/>
+      </div>
+      <div>
+       <WorkExperience/>
+      </div>
     </div>
+
   );
 }
 
