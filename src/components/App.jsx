@@ -17,6 +17,12 @@ function App(){
     height:'700px',
    
   }
+  const border ={
+    border:'2px solid black'
+  }
+  const background={
+    backgroundColor:'white'
+  }
 
   return (
     <div>
@@ -24,18 +30,18 @@ function App(){
       <div>        
         <img style={img} src={vwBack}/>
       </div>
-      </hr>
-      <div>
+      
+      <div style={border}>
        <Project/>
       </div>
-      <div>
+      <div style={background}>
       
       <Interests/>
      </div>
-     <div>
+     <div style ={border}>
        <Education/>
       </div>
-      <div>
+      <div style={background}>
        <WorkExperience/>
       </div>
     </div>
