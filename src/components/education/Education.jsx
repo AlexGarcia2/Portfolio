@@ -4,12 +4,7 @@ import Epicodus from './Epicodus'
 function Education(){
   return (
     <div>
-      <div>
-        <h1>Epicodus card</h1>
-      </div>
-      <div>
-        <Epicodus/>
-      </div> 
+      <Epicodus/>      
     </div>
   );  
 }

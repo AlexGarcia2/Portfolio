@@ -29,19 +29,17 @@ function App(){
       <Header/>
       <div>        
         <img style={img} src={vwBack}/>
-      </div>
-      
-      <div style={border}>
+      </div>      
+      {/* <div style={border}>
        <Education/>
-      </div>
-      <div style={background}>
-      
+      </div> */}
+      <div style={background}>      
       <Interests/>
      </div>
      <div style ={border}>
      <Project/>
-      </div>
-      <div style={background}>
+      </div> 
+       <div style={background}>
        <WorkExperience/>
       </div>
     </div>
