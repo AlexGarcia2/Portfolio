@@ -8,7 +8,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
-<body style="background-color: #333333"  >
+<body style='background-image: src=/src/assets/background.jpg'  >
     <% if (htmlWebpackPlugin.options.appMountId) { %>
       <div id="<%= htmlWebpackPlugin.options.appMountId%>"></div>
     <% } %>
@@ -17,3 +17,4 @@
     <script src="path/to/your/bundle.js"></script>
   </body>
 </html>
+
