@@ -6,6 +6,7 @@ function Home(){
 
  
   const card ={
+    
     marginBottom:'200px'
   }
 

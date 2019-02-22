@@ -10,14 +10,25 @@ import Education from './education/Education';
 import background from '../assets/background.jpg'
 
 
+const img={
+  position:'absolute',
+  width:'100%',
+  height:'100%',
+  zIndex:'-1'
+}
 
+const routers={
+  postion:'absolute',
+  
+  
+}
 
 function App(){
   return (
-    <div>
-      <img src={background}/>    
-      <div>
+    <div >
         <Header/>       
+      <img style={img} src={background}/>    
+      <div style={routers}>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/workExperience' component={WorkExperience} />

@@ -5,13 +5,13 @@ import { Link, Icon } from 'react-router-dom';
 
 function Header(){
   
-   const toolBar = {
-     margin : '50px',
-     border: '2px black solid',
-     padding: '20px',
-     backgroundColor: 'white'
+  //  const toolBar = {
+  //    margin : '50px',
+  //    border: '2px black solid',
+  //    padding: '20px',
+  //    backgroundColor: 'white'
      
-   }
+  //  }
 
   const bottonColor ={
     color: 'black',
@@ -19,7 +19,7 @@ function Header(){
 
 
   return (
-    <div style={toolBar} >
+    <div >
       <div>
         <Button waves='light' className='blue-grey lighten-4'><Link to="/" style={bottonColor}>Home</Link></Button>     
         <Button waves='light' className='blue-grey lighten-4'><Link to="/workExperience" style={bottonColor}>WorkExperience</Link></Button>
