@@ -1,6 +1,6 @@
 import  React  from 'react';
 import HomeCard from './HomeCard';
-import VWBack from '../assets/VWBack.jpg';
+
 
 function Home(){
 
@@ -11,7 +11,7 @@ function Home(){
 
     return (
       <div >        
-        <img src={VWBack}/>             
+            
        <div sytle={card} ><HomeCard/></div>
       </div>
     );
