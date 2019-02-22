@@ -4,12 +4,15 @@ import VWBack from '../assets/VWBack.jpg';
 
 function Home(){
 
-  
+ 
+  const card ={
+    marginBottom:'200px'
+  }
 
     return (
-      <div>        
-        <HomeCard/>
+      <div >        
         <img src={VWBack}/>             
+       <div sytle={card} ><HomeCard/></div>
       </div>
     );
   }
