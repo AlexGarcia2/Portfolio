@@ -1,9 +1,10 @@
 import React from 'react';
+import CurrentProjects from './CurrentProjects';
 
 function Project(){
   return (
     <div>
-      <h1>Projects go here</h1>
+      <CurrentProjects/>
     </div>
   );
 }
