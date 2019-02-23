@@ -2,17 +2,22 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-// const card ={
-//     width:'400px',
-//     marginLeft: '100px',
-//     border:'5px solid #8EE3C7'
-// }
+const card ={
+    width:'50%',
+    marginLeft: '100px',
+    marginTop:'100px',
+    
+}
+
+const cardContent={
+    padding:'10px'
+}
 
 function CurrentProjects(){
   return (
-    <div>
+    <div style={card}>
     <Card>
-      <h4>Current Projects</h4>
+      <h4 style={cardContent}>Current Projects</h4>
       <CardContent>
 
           <div>

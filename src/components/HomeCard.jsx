@@ -8,8 +8,8 @@ function HomeCard(){
     width: '400px',
     textAlign: 'center',
     fontFamily: 'impact',
-    marginTop: '100px',
-    marginLeft:'450px',
+    marginTop: '250px',
+    marginLeft:'500px',
     borderRadius: '10px/50px/30px',
     background: 'rgba(211, 211, 211, 0.4)',
     fontFamily:'Garamond'    
