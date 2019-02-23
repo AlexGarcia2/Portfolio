@@ -26,9 +26,9 @@ const routers={
 function App(){
   return (
     <div >
-        <Header/>       
       <img style={img} src={background}/>    
       <div style={routers}>
+        <Header/>       
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/workExperience' component={WorkExperience} />
