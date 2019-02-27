@@ -6,6 +6,7 @@ const card ={
     width:'50%',
     marginLeft: '100px',
     marginTop:'100px',
+    boxShadow:'3px 5px 8px #212121'
     
 }
 

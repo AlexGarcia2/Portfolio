@@ -11,10 +11,11 @@ import background from '../assets/background.jpg'
 
 
 const img={
-  position:'absolute',
-  width:'100%',
-  height:'100%',
-  zIndex:'-1'
+  position:'fixed',
+  width:'100vw',
+  height:'100vh',
+  zIndex:'-1',
+  objectFit: 'cover'
 }
 
 const routers={

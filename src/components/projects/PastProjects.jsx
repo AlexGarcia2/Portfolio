@@ -6,7 +6,8 @@ const card ={
     width:'50%',
     float:'right',
     marginTop:'100px',
-    marginRight:'100px'
+    marginRight:'50px',
+    boxShadow:'3px 5px 8px #212121'
 }
 
 const cardContent={

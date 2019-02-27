@@ -5,7 +5,8 @@ import CardContent from '@material-ui/core/CardContent';
 const card ={
     width:'50%',
     marginLeft:'100px',
-    marginTop:'100px',
+    marginTop:'50px',
+    boxShadow:'3px 5px 8px #212121'
 
 }
 
