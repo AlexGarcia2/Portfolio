@@ -18,7 +18,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.css','.js', '.jsx']
   },
 
   devtool: '#source-map',
@@ -40,6 +40,13 @@ module.exports = {
           emitWarning: true,
           configFile: "./.eslintrc.json"
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
       {
       test: /\.(png|gif|jp(e*)g|svg)$/,

@@ -1,9 +1,15 @@
 import React from 'react';
+import CurrentCareer from './CurrentCareer';
+import LastCareer from './LastCareer';
+import Volunteer from './Volunteer';
+
 
 function WorkExperience(){
   return (
     <div>
-      <h1>work experience here</h1>
+      <CurrentCareer/>
+      <LastCareer/>
+      <Volunteer/>
     </div>
   );
 }
