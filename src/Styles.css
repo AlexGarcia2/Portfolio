@@ -37,3 +37,7 @@
   box-shadow: 3px 5px 8px #212121
 
 }
+.cardBorder{
+  margin-top: 10px;
+  border-top: 2px solid white;
+}

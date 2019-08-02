@@ -1,9 +1,13 @@
 import React from 'react';
+import vw from '../../assets/VWBack.jpg'
 
 function CurrentCareer(){
   return (
     <div>
-      <h1>current job or project that im working on </h1>
+      <h3>Ashleys home store </h3>
+      <div>
+      <img style={img} src={vw}/>   
+      </div>
     </div>
   );
 }
