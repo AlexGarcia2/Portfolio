@@ -11,9 +11,11 @@ function CurrentProjects(){
       <CardContent>
 
           <div>
-              <h6>Ar Checkers</h6>
+              <h6>Labor Tracker</h6>
               <div>
-                  <p>this is AR project im working on for board games on the go people </p>
+                  <p>A Labor tracking app for a small company. Allowing the employees to clock in and out and see daily task and all so be able to see time of labor hours. Which gives company owner total hours work and payable hours owed</p>
+
+                  <a>Larbor Tracker GitHub</a>
               </div>
 
           </div>

@@ -1,12 +1,19 @@
 import React from 'react';
-import vw from '../../assets/VWBack.jpg'
+import '../../Styles.css';
+
 
 function CurrentCareer(){
   return (
-    <div>
-      <h3>Ashleys home store </h3>
+    <div className="currentCardProd">
       <div>
-      <img style={img} src={vw}/>   
+      <h3>Current Employed</h3>
+      <h5>Amazon</h5>
+      img
+      <p>
+      Adress:
+      Contact:
+      </p>
+      <p>Postion: Warehouse team member.</p>
       </div>
     </div>
   );

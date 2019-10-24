@@ -10,9 +10,10 @@ function PastProjects(){
       <h4 className='cardContent'>past projects</h4>
       <CardContent>
           <div>
-              <h6>master mind</h6>
+              <h6>Urban Farmer</h6>
               <div>
-                  <p>this is AR project im working on for board games on the go people </p>
+                  <p>App built to connect people with home gardens or farms to sell of share produce with in the comunity. </p>
+                  <a>Urban Farmer github</a>
               </div>
           </div>
           
